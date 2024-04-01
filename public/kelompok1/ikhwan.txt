@@ -1,0 +1,3 @@
+nama: Ikhwan
+nim: 33422013
+no: 16

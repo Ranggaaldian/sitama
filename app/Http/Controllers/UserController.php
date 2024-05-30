@@ -77,8 +77,7 @@ class UserController extends Controller
             return redirect()->route('manage-user.index');
         }
     }
-
-    /**
+ /**
      * Display the specified resource.
      *
      * @param  int  $id
@@ -105,7 +104,7 @@ class UserController extends Controller
     /**
      * Update the specified resource in storage.
      *
-     * @param  \Illuminate\Http\Request  $request
+* @param  \Illuminate\Http\Request  $request
      * @param  int  $id
      * @return \Illuminate\Http\Response
      */
@@ -156,6 +155,6 @@ class UserController extends Controller
      */
     public function destroy($id)
     {
-        //
+        
     }
 }
